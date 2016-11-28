@@ -279,6 +279,7 @@ public class WebCrawlerPresenter implements IWebCrawlerPresenter {
         if (index >= elements.size()) {
             //// TODO: 2016/11/27 没有找到合适图片的情况处理
             webCrawlerView.showCrawFail();
+            return;
         }
 
         String src = elements.get(index).attr("src");
