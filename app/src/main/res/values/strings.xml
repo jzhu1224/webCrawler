@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyWebBrowser</string>
+    <string name="catch_web">抓取</string>
+    <string name="save">保存</string>
+</resources>
